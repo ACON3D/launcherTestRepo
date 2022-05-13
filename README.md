@@ -2,10 +2,17 @@
 
 Dummy repository only for AblerLauncher Test
 
-## Release v5.5.5
 
-릴리즈 테스트
+## AblerAutoDeployer 태그 명명법
 
-## Release 6.6.6
+### Release
 
-프리-릴리즈 테스트
+`release/v`가 prefix로 자동으로 추가
+- 브랜치를 생성할 때는 `release/v0.0.0`
+- AutoDeployer 커맨드 라인에는 `0.0.0`
+
+### Tag
+
+`ABLER/v`가 prefix로 자동으로 추가
+- 태그를 생성할 때는 `ABLER/v0.0.0`
+- AutoDeployer 커맨드 라인에는 `0.0.0`
